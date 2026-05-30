@@ -26,7 +26,6 @@ export default function Home() {
   return (
     <div>
 
-      {/* HERO */}
       <section style={{
         minHeight: '100vh',
         position: 'relative',
@@ -88,7 +87,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* STATS BAR */}
       <section style={{ background: '#0f3460', padding: '40px 80px' }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',
@@ -103,7 +101,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TENTANG SINGKAT */}
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',
@@ -150,52 +147,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* LAYANAN */}
-      <section style={{ padding: '100px 80px', background: '#f8fafc' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: 56 }}>
-            <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1a6baa', marginBottom: 14 }}>
-              Yang Kami Tawarkan
-            </p>
-            <h2 style={{ fontSize: 36, fontWeight: 700, color: '#0f3460', marginBottom: 16 }}>Layanan Kami</h2>
-            <p style={{ fontSize: 16, color: '#475569', maxWidth: 480, margin: '0 auto' }}>
-              Dari wisata domestik hingga perjalanan internasional, kami siap menangani setiap kebutuhan perjalanan Anda.
-            </p>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
-            {layanan.map(item => (
-              <div key={item.id} style={{
-                background: '#ffffff',
-                border: '1px solid #e2e8f0',
-                borderRadius: 16, padding: '32px 28px',
-                transition: 'all 0.25s ease',
-              }}>
-                <div style={{
-                  width: 48, height: 48,
-                  background: '#eef4fb', borderRadius: 12,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  marginBottom: 20, fontSize: 22,
-                }}>
-                  {item.icon}
-                </div>
-                <h3 style={{ fontSize: 17, fontWeight: 600, color: '#1e293b', marginBottom: 10 }}>{item.judul}</h3>
-                <p style={{ fontSize: 14, color: '#475569', lineHeight: 1.7, margin: 0 }}>{item.deskripsi}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 48 }}>
-            <Link href="/layanan-kami" style={{
-              background: '#0f3460', color: '#ffffff',
-              padding: '13px 32px', borderRadius: 10,
-              fontWeight: 500, fontSize: 14, textDecoration: 'none',
-            }}>
-              Lihat Semua Layanan
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* KEUNGGULAN */}
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ marginBottom: 56 }}>
@@ -226,7 +177,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA PENUTUP */}
       <section style={{
         padding: '100px 80px',
         background: 'linear-gradient(135deg, #0f3460 0%, #1a5080 100%)',
