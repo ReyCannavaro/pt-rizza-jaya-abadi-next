@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'PT. Rizza Jaya Abadi — Tour & Travel',
+  title: 'PT. Rizza Jaya Abadi - Tour & Travel',
   description: 'Jasa perjalanan wisata domestik dan internasional terpercaya. Melayani paket wisata, sewa bus, umroh, dan corporate travel.',
   keywords: 'tour travel surabaya, wisata domestik, wisata internasional, sewa bus, umroh',
 };

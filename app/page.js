@@ -59,7 +59,7 @@ export default function Home() {
             <span style={{ color: '#e8a020' }}>Layak Dikenang</span>
           </h1>
           <p style={{ fontSize: 18, color: 'rgba(255,255,255,0.8)', maxWidth: 500, marginBottom: 44, lineHeight: 1.7 }}>
-            Kami merancang perjalanan wisata, umroh, dan corporate travel dengan standar pelayanan yang konsisten — dari keberangkatan hingga kepulangan.
+            Kami merancang perjalanan wisata, umroh, dan corporate travel dengan standar pelayanan yang konsisten, dari keberangkatan hingga kepulangan.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
             <Link href="/layanan-kami" style={{
@@ -112,10 +112,10 @@ export default function Home() {
               Lebih dari Sekadar Jasa Perjalanan
             </h2>
             <p style={{ fontSize: 16, color: '#475569', lineHeight: 1.8, marginBottom: 16 }}>
-              PT. Rizza Jaya Abadi berdiri atas keyakinan bahwa setiap perjalanan adalah pengalaman yang membentuk kenangan. Sejak berdiri, kami telah melayani ribuan pelanggan dengan dedikasi penuh — mulai dari wisata keluarga, rombongan perusahaan, hingga perjalanan ibadah.
+              PT. Rizza Jaya Abadi berdiri atas keyakinan bahwa setiap perjalanan adalah pengalaman yang membentuk kenangan. Sejak berdiri, kami telah melayani ribuan pelanggan dengan dedikasi penuh, mulai dari wisata keluarga, rombongan perusahaan, hingga perjalanan ibadah.
             </p>
             <p style={{ fontSize: 16, color: '#475569', lineHeight: 1.8, marginBottom: 36 }}>
-              Kami tidak hanya menyediakan transportasi. Kami merancang pengalaman perjalanan yang terencana, nyaman, dan berkesan — dengan standar pelayanan yang selalu kami jaga.
+              Kami tidak hanya menyediakan transportasi. Kami merancang pengalaman perjalanan yang terencana, nyaman, dan berkesan, dengan standar pelayanan yang selalu kami jaga.
             </p>
             <Link href="/profil-kami" style={{
               background: '#0f3460', color: '#ffffff',
