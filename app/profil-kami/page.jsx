@@ -15,7 +15,7 @@ export default function ProfilKami() {
 
       <section style={{ position: 'relative', height: 460, display: 'flex', alignItems: 'flex-end', overflow: 'hidden' }}>
         <Image
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80"
+          src="https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Profil PT. Rizza Jaya Abadi"
           fill
           sizes="100vw"

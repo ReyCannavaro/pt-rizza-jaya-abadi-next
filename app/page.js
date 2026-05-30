@@ -34,7 +34,7 @@ export default function Home() {
         overflow: 'hidden',
       }}>
         <Image
-          src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=80"
+          src="https://images.unsplash.com/photo-1465774124747-65ab0913fb9e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Perjalanan wisata"
           fill
           sizes="100vw"
