@@ -37,6 +37,7 @@ export default function Home() {
           src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=80"
           alt="Perjalanan wisata"
           fill
+          sizes="100vw"
           style={{ objectFit: 'cover', objectPosition: 'center' }}
           priority
         />
@@ -45,10 +46,7 @@ export default function Home() {
           background: 'linear-gradient(105deg, rgba(15,52,96,0.82) 0%, rgba(15,52,96,0.45) 60%, rgba(0,0,0,0.1) 100%)',
         }} />
         <div style={{ position: 'relative', zIndex: 1, maxWidth: 1280, margin: '0 auto', width: '100%', padding: '140px 80px 80px' }}>
-          <p style={{
-            fontSize: 12, fontWeight: 500, letterSpacing: '0.1em',
-            textTransform: 'uppercase', color: '#e8a020', marginBottom: 20,
-          }}>
+          <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#e8a020', marginBottom: 20 }}>
             Tour & Travel Terpercaya — Surabaya
           </p>
           <h1 style={{
@@ -60,10 +58,7 @@ export default function Home() {
             Setiap Perjalanan<br />
             <span style={{ color: '#e8a020' }}>Layak Dikenang</span>
           </h1>
-          <p style={{
-            fontSize: 18, color: 'rgba(255,255,255,0.8)',
-            maxWidth: 500, marginBottom: 44, lineHeight: 1.7,
-          }}>
+          <p style={{ fontSize: 18, color: 'rgba(255,255,255,0.8)', maxWidth: 500, marginBottom: 44, lineHeight: 1.7 }}>
             Kami merancang perjalanan wisata, umroh, dan corporate travel dengan standar pelayanan yang konsisten — dari keberangkatan hingga kepulangan.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
@@ -71,27 +66,19 @@ export default function Home() {
               background: '#e8a020', color: '#1a1a1a',
               padding: '14px 32px', borderRadius: 10,
               fontWeight: 600, fontSize: 15, textDecoration: 'none',
-            }}>
-              Lihat Paket Kami
-            </Link>
+            }}>Lihat Paket Kami</Link>
             <Link href="/profil-kami" style={{
               background: 'rgba(255,255,255,0.12)',
               border: '1.5px solid rgba(255,255,255,0.4)',
-              color: '#ffffff',
-              padding: '14px 32px', borderRadius: 10,
+              color: '#ffffff', padding: '14px 32px', borderRadius: 10,
               fontWeight: 500, fontSize: 15, textDecoration: 'none',
-            }}>
-              Tentang Kami
-            </Link>
+            }}>Tentang Kami</Link>
           </div>
         </div>
       </section>
 
       <section style={{ background: '#0f3460', padding: '40px 80px' }}>
-        <div style={{
-          maxWidth: 1280, margin: '0 auto',
-          display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 32,
-        }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 32 }}>
           {profil.stats.map((stat, i) => (
             <div key={i} style={{ textAlign: 'center' }}>
               <p style={{ fontSize: 38, fontWeight: 700, color: '#e8a020', margin: 0, lineHeight: 1 }}>{stat.nilai}</p>
@@ -102,16 +89,13 @@ export default function Home() {
       </section>
 
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
-        <div style={{
-          maxWidth: 1280, margin: '0 auto',
-          display: 'grid', gridTemplateColumns: '1fr 1fr',
-          gap: 80, alignItems: 'center',
-        }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center' }}>
           <div style={{ position: 'relative', borderRadius: 20, overflow: 'hidden', aspectRatio: '4/3' }}>
             <Image
               src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
               alt="Tim PT. Rizza Jaya Abadi"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover' }}
             />
             <div style={{
@@ -123,9 +107,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1a6baa', marginBottom: 16 }}>
-              Siapa Kami
-            </p>
+            <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1a6baa', marginBottom: 16 }}>Siapa Kami</p>
             <h2 style={{ fontSize: 36, fontWeight: 700, color: '#0f3460', lineHeight: 1.2, marginBottom: 20 }}>
               Lebih dari Sekadar Jasa Perjalanan
             </h2>
@@ -138,11 +120,8 @@ export default function Home() {
             <Link href="/profil-kami" style={{
               background: '#0f3460', color: '#ffffff',
               padding: '13px 28px', borderRadius: 10,
-              fontWeight: 500, fontSize: 14, textDecoration: 'none',
-              display: 'inline-block',
-            }}>
-              Selengkapnya tentang Kami
-            </Link>
+              fontWeight: 500, fontSize: 14, textDecoration: 'none', display: 'inline-block',
+            }}>Selengkapnya tentang Kami</Link>
           </div>
         </div>
       </section>
@@ -150,9 +129,7 @@ export default function Home() {
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ marginBottom: 56 }}>
-            <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1a6baa', marginBottom: 14 }}>
-              Mengapa Memilih Kami
-            </p>
+            <p style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1a6baa', marginBottom: 14 }}>Mengapa Memilih Kami</p>
             <h2 style={{ fontSize: 36, fontWeight: 700, color: '#0f3460', maxWidth: 420 }}>
               Standar yang Tidak Pernah Kami Kompromikan
             </h2>
@@ -202,18 +179,13 @@ export default function Home() {
               background: '#e8a020', color: '#1a1a1a',
               padding: '14px 36px', borderRadius: 10,
               fontWeight: 600, fontSize: 15, textDecoration: 'none',
-            }}>
-              Konsultasi Gratis
-            </Link>
+            }}>Konsultasi Gratis</Link>
             <Link href="/layanan-kami" style={{
               background: 'rgba(255,255,255,0.1)',
               border: '1.5px solid rgba(255,255,255,0.3)',
-              color: '#ffffff',
-              padding: '14px 36px', borderRadius: 10,
+              color: '#ffffff', padding: '14px 36px', borderRadius: 10,
               fontWeight: 500, fontSize: 15, textDecoration: 'none',
-            }}>
-              Lihat Paket
-            </Link>
+            }}>Lihat Paket</Link>
           </div>
         </div>
       </section>
