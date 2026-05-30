@@ -25,7 +25,6 @@ export default function ProfilKami() {
   return (
     <div>
 
-      {/* HERO */}
       <section style={{
         position: 'relative',
         height: 460,
@@ -53,7 +52,6 @@ export default function ProfilKami() {
         </div>
       </section>
 
-      {/* TENTANG PERUSAHAAN */}
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',
@@ -106,7 +104,6 @@ export default function ProfilKami() {
         </div>
       </section>
 
-      {/* VISI & MISI */}
       <section style={{ padding: '100px 80px', background: '#f8fafc' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 60 }}>
@@ -154,7 +151,6 @@ export default function ProfilKami() {
         </div>
       </section>
 
-      {/* NILAI PERUSAHAAN */}
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ marginBottom: 56 }}>
@@ -188,7 +184,6 @@ export default function ProfilKami() {
         </div>
       </section>
 
-      {/* STATS */}
       <section style={{ padding: '80px', background: '#0f3460' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 52 }}>
@@ -211,7 +206,6 @@ export default function ProfilKami() {
         </div>
       </section>
 
-      {/* CTA */}
       <section style={{ padding: '100px 80px', background: '#ffffff' }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',

@@ -5,41 +5,32 @@
   --color-primary-hover: #0a2547;
   --color-primary-light: #1a6baa;
   --color-primary-surface: #eef4fb;
-
   --color-accent: #e8a020;
   --color-accent-hover: #d09018;
   --color-accent-text: #1a1a1a;
-
   --color-ink: #1e293b;
   --color-body: #475569;
   --color-muted: #94a3b8;
   --color-hairline: #e2e8f0;
-
   --color-canvas: #ffffff;
   --color-surface-soft: #f8fafc;
   --color-surface-blue: #eef4fb;
-
   --color-logo-bg: #000000;
   --color-logo-red: #cc2222;
   --color-logo-globe: #4a90c4;
-
   --color-success: #16a34a;
   --color-warning: #d97706;
   --color-error: #dc2626;
-
   --font-primary: 'Inter', system-ui, sans-serif;
-
   --space-xs: 8px;
   --space-sm: 16px;
   --space-md: 24px;
   --space-lg: 48px;
   --space-xl: 80px;
   --space-2xl: 120px;
-
   --shadow-1: 0 1px 4px rgba(15, 52, 96, 0.06);
   --shadow-2: 0 4px 20px rgba(15, 52, 96, 0.08);
   --shadow-3: 0 4px 24px rgba(15, 52, 96, 0.18);
-
   --radius-sm: 8px;
   --radius-md: 10px;
   --radius-lg: 16px;
@@ -52,7 +43,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
 }
 
 body {
